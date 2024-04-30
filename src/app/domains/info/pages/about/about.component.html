@@ -6,11 +6,16 @@
   <app-counter [duration]="duration()" [message]="message()" *ngIf="duration() > 0" />
 </div> -->
 
+
+<!-- <app-header [cart]="cart()" /> -->
 <div class="px-10">
   <h1 class="text-lg font-bold">About</h1>
-  <p class="text-xs">Lorem ipsum dolor <span hightlight>sit amet consectetur adipisicing elit.</span> Omnis, eum similique! Inventore ipsa iusto rem atque quis ipsum tenetur velit aliquid praesentium, in voluptate unde non doloribus fugit aut quibusdam.</p>
+  <p class="text-xs">Lorem ipsum dolor <span hightlight>sit amet consectetur adipisicing elit.</span> Omnis, eum
+    similique! Inventore ipsa iusto rem atque quis ipsum tenetur velit aliquid praesentium, in voluptate unde non
+    doloribus fugit aut quibusdam.</p>
 
-  <p class="text-xs">Número de clientes <app-counter [duration]="duration()" [message]="message()" *ngIf="duration() > 0" /></p>
+  <p class="text-xs">Número de clientes <app-counter [duration]="duration()" [message]="message()"
+      *ngIf="duration() > 0" /></p>
 
   <div>
     <app-wave-audio audioUrl="assets/audio.mp3" />
